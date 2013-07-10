@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Jeremy Meyer </title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<style type='text/css'>
+		body {
+			background-color: #CCC;
+		}
+		.header{
+			height: auto;
+			padding: 0px;
+		}
+		.main{
+			background-color: white;
+			height: auto;
+			margin:0px;
+			padding: 10px;
+			border-radius: 0px 0px 5px 5px;
+		}
+		.social a{
+			text-decoration: none;
+		}
+		.img32{
+			margin: 20px;
+			height: 32px;
+			width: 32px;
+		}
+		/*B&W*/
+		.bw {
+		  -webkit-transition: all .3s ease;
+		     -moz-transition: all .3s ease;
+		       -o-transition: all .3s ease;
+		      -ms-transition: all .3s ease;
+		          transition: all .3s ease;
+		   -webkit-filter: grayscale(100%);
+		   -webkit-filter: brightness(75%);
+		}
+		.bw:hover { -webkit-filter: grayscale(0%); -webkit-filter: brightness(100%); }
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<!-- START OF HEADER -->
+		<div class="header">
+			<h4> Jeremy Meyer </h4>
+			<div class='navbar navbar-inverse' style="margin:0px">
+	    	<div class='navbar-inner'>
+	    		<div class="container">
+	    			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+				    </a>
+				    <div class="nav-collapse">
+			      	<ul class="nav">
+			      		<li><a href="index.html">Home</a></li>
+								<li class="active"><a href="#">Projects</a></li>
+								<li><a href="orgs.html">Clubs &amp; Orgs</a></li>
+								<li><a href="blog.html">Blog</a></li>
+			      	</ul>
+			      </div>
+	      	</div>
+	      </div>
+	  	</div>
+	  </div>
+		<!-- END OF HEADER -->
+		
+		<!-- START OF MAIN -->
+		<div class="container container-responsive">
+	  	<div class="main">
+				<h4>Check out some projects I've been working on!</h4>
+				<div class="alert alert-info">
+					<div class="media">
+						<a class="pull-left" href="http://livecourse.net" target="_blank">
+							<div class="bw pic">
+								<img class="media-object" src="img/livecourse.png"/>
+							</div>
+						</a>
+						<div class="media-body">
+							<h4><a href="http://livecourse.net" target="_blank"> LiveCourse </a></h4>
+							LiveCourse allows Purdue students to chat and collaboratively take notes in all of their favorite classes cleanly and easily. We built it with Backbone.js and CodeIgniter, which uses MVC. Clicking the title or picture will take you to the homepage, but you would have to create an account to be able to access the site itself. We also developed applications for Android and Windows Phone.
+						</div>
+					</div>
+				</div>
+				<div class="alert">
+					<div class="media">
+						<a class="pull-left" href="https://github.com/ajlin500/PurdueMade" target="_blank">
+							<div class="bw pic">
+								<img class="media-object" src="img/purdue.png"/>
+							</div>
+						</a>
+						<div class="media-body">
+							<h4><a href="https://github.com/ajlin500/PurdueMade" target="_blank" style="color:#c09853"> PurdueMade </a></h4>
+							I'm working on PurdueMade with some other Purdue students for the Entrepreneurship and Innovation Club. We're building PurdueMade with Meteor, but it's still a work in progress. We're rolling it out in the fall at the start of the school year. Clicking the title or picture will take you to the Github repository.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END OF MAIN -->
+
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="social pagination-centered">
+				<a href="https://twitter.com/JJman505" target="_blank">
+					<img class="img32" src="img/twitter.png"/>
+				</a>
+				<a href="https://www.facebook.com/jjman505" target="_blank">
+					<img class="img32" src="img/facebook.png"/>
+				</a>
+				<a href="https://github.com/jjman505" target="_blank">
+					<img class="img32" src="img/github.png"/>
+				</a>
+				<a href="http://www.linkedin.com/profile/view?id=163052757" target="_blank">
+					<img class="img32" src="img/linkedin.png"/>
+				</a><!-- 
+				<a href="mailto:jjman505@gmail.com">
+					<img class="circle" style="margin: 30px;" src="img/gmail.png"/>
+				</a> -->
+				<a href="mailto:meyer88@purdue.edu">
+					<img class="img32" src="img/purdue_mail.png"/>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span12 text-center">
+				<p>&copy; 2013 Jeremy Meyer</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
