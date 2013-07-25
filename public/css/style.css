@@ -1,0 +1,74 @@
+/* CSS Document */
+
+/*** General styling for all pages ***/
+
+body {
+	background-color: #CCC;
+}
+.header{
+	height: auto;
+	padding: 0px;
+}
+.glow{
+	text-decoration: none;
+  color: #000;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+.glow:hover {
+	text-decoration: none;
+  color: #39f;
+}
+
+.main{
+	background-color: white;
+	height: auto;
+	margin:0px;
+	padding: 10px;
+	border-radius: 0px 0px 5px 5px;
+}
+
+/*** For carousel on homepage ***/
+
+.carousel img {
+  width:100%;
+}
+@media (min-width: 980px){
+	.carousel {
+		width: 100%;
+	}
+	.inner-item {
+  text-align: center;
+  	img {
+  		margin: 0 auto;
+  	}
+	}
+}
+
+/*** For images on projects and orgs pages ***/
+
+/*B&W*/
+.bw {
+  -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+       -o-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+          transition: all .3s ease;
+   -webkit-filter: grayscale(100%);
+   -webkit-filter: brightness(75%);
+}
+.bw:hover { -webkit-filter: grayscale(0%); -webkit-filter: brightness(100%); }
+
+/*** For social icons in footer ***/
+
+.social a{
+	text-decoration: none;
+}
+.img32{
+	margin: 20px;
+	height: 32px;
+	width: 32px;
+}

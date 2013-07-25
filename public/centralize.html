@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Jeremy Meyer </title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<style type='text/css'>
+		body {
+			background-color: #CCC;
+		}
+		.header{
+			height: auto;
+			padding: 0px;
+		}
+		.main{
+			background-color: white;
+			height: auto;
+			margin:0px;
+			padding: 10px;
+			border-radius: 0px 0px 5px 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h4> Jeremy Meyer </h4>
+			<div class='navbar navbar-inverse' style="margin:0px">
+	    	<div class='navbar-inner'>
+	    		<div class="container">
+	    			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+				    </a>
+				    <div class="nav-collapse">
+			      	<ul class="nav">
+			      		<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="orgs.html">Clubs & Orgs</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="contact.html">Contact</a></li>
+			      	</ul>
+			      </div>
+	      	</div>
+	      </div>
+	  	</div>
+	  </div>
+		<div class="main">
+			<h2> Welcome to my website! </h2>
+			<div class="container">
+				<script>
+					$('#container').isotope({ layoutMode : 'fitRows' });
+					var $newItems = $('<div class="item"> test </div><div class="item"> test </div><div class="item"> test </div>');
+					$('#container').append( $newItems ).isotope( 'addItems', $newItems );
+				</script>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container" style="padding: 20px;">
+		<div class="row">
+			<div class="span12 text-center">
+				<p>&copy; 2013 Jeremy Meyer</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js">
+</body>
+</html>
